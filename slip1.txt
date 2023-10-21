@@ -1,0 +1,3 @@
+v=c(10,23,24,56,23,85,21,11)
+sprintf("minimum no=%d",min(v))
+sprintf("maximum no=%d",max(v))

@@ -1,0 +1,5 @@
+v=c(10,21,54,22,1,54,98)
+print("acending order")
+print(sort(v))
+print("decending order")
+print(sort(v,decreasing=TRUE))

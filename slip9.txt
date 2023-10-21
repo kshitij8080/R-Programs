@@ -1,0 +1,8 @@
+v=c("a","b","c","d")
+print("original vector:")
+print(v)
+
+f=factor(v)
+print("factors of said vectors:")
+levels(f)[1]="k"
+print(f)

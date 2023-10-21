@@ -1,0 +1,9 @@
+marks=c(78,88,54,87,99)
+subject=c("cpp","datastructure","PHP","python","java")
+
+barplot(marks,
+        main="Marks of 5 subjects",
+        xlab="name of subject",
+        ylab="marks",
+        names.arg=subject,
+        col="pink")
